@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_42sdp"
+        android:background="@color/present"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:weightSum="10">
+
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:text="Home Screen"
+            android:fontFamily="@font/googlesans_regular"
+            android:textStyle="bold"
+            android:textColor="@color/off_white"
+            android:layout_gravity="start|center_vertical"/>
+
+        <ImageView
+            android:layout_width="@dimen/_22sdp"
+            android:layout_height="@dimen/_22sdp"
+            android:layout_margin="@dimen/_5sdp"
+            android:src="@drawable/_location"
+            android:layout_gravity="end|center_vertical"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:text="Sec 132, Noida"
+            android:fontFamily="@font/googlesans_regular"
+            android:textStyle="bold"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/off_white"
+            android:layout_gravity="end|center_vertical"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/flFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appbar" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_58sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu"
+        app:labelVisibilityMode="labeled"
+        app:itemTextAppearanceActiveBoldEnabled="false"
+        app:itemTextColor="@color/colorPrimaryDark"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

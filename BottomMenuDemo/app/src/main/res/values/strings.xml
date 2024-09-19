@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BottomMenuDemo</string>
+    <string name="_my_products">Products</string>
+    <string name="_add">Add New</string>
+    <string name="_list">List</string>
+    <string name="_profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_home">Home</string>
+</resources>

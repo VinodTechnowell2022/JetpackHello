@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="always"
+        android:iconTint="@color/white"
+        android:title="@string/_home"/>
+
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/ic_basket_24"
+        app:showAsAction="always"
+        android:iconTint="@color/white"
+        android:title="@string/_my_products" />
+
+    <item
+        android:id="@+id/add_new"
+        android:icon="@drawable/baseline_add"
+        app:showAsAction="always"
+        android:iconTint="@color/white"
+        android:title="@string/_add"/>
+
+    <item
+        android:id="@+id/my_fav"
+        android:icon="@drawable/ic_survey"
+        app:showAsAction="always"
+        android:iconTint="@color/white"
+        android:title="@string/_list"/>
+
+    <item
+        android:id="@+id/my_profile"
+        android:icon="@drawable/ic_person_outline"
+        app:showAsAction="always"
+        android:iconTint="@color/white"
+        android:title="@string/_profile"/>
+
+</menu>

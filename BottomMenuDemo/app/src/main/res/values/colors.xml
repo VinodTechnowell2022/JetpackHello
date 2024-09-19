@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#0464b4</color>
+    <color name="purple_700">#DA0464B4</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="off_white">#F8F7F9</color>
+    <color name="vlight_grey">#AFAEAE</color>
+    <color name="grey">#989696</color>
+    <color name="dark_grey">#424040</color>
+    <color name="light_grey">#E4E2E2</color>
+    <color name="launcher_color">#0464b4</color>
+    <color name="main">@color/colorPrimary</color>
+    <color name="main_dark">@color/colorPrimaryDark</color>
+    <color name="red">#F63223</color>
+    <color name="absent">#e36009</color>
+    <color name="card_orange">#EDF5E1D4</color>
+    <color name="main_light">#BA47A2ED</color>
+    <color name="main_vlight">#F36CBAFA</color>
+
+    <!--<color name="colorPrimary">#0323D1</color>
+    <color name="colorPrimaryDark">#0420BA</color>
+    <color name="colorAccent">#3E5BFB</color>
+    <color name="colorAccentLight">#6077FA</color>-->
+
+
+    <!--<color name="colorPrimary">#0184ec</color>
+    <color name="colorPrimaryDark">#0366B6</color>
+    <color name="colorAccent">#01a9ac</color>
+    <color name="colorAccentLight">#5dd3c3</color>
+    <color name="colorCenter">#01a9ac</color>-->
+
+    <!--DRAFT Theme-->
+    <color name="colorPrimary">#119744</color>
+    <color name="colorPrimaryDark">#119744</color>
+    <color name="colorAccent">#119744</color>
+    <color name="colorAccentLight">#74D0BE</color>
+    <color name="colorCenter">#3ba9b5</color>
+
+
+    <!--DHRUV Theme-->
+    <!--<color name="colorPrimary">#038756</color>
+    <color name="colorPrimaryDark">#038756</color>
+    <color name="colorAccent">#038756</color>
+    <color name="colorAccentLight">#038756</color>-->
+
+    <!-- <color name="colorPrimaryDark">#015335</color>
+     <color name="colorAccent">#2BB885</color>
+     <color name="colorAccentLight">#3DBC8E</color>-->
+
+
+    <color name="lightGray">#E6E6E6</color>
+    <color name="darkGray">#4B4B4B</color>
+    <color name="mediumdarkGray">#777373</color>
+    <color name="yellow">#FFC114</color>
+    <color name="green">#00C980</color>
+    <color name="present">#4f8f5d</color>
+
+    <color name="blue_selected">#2196F3</color>
+    <color name="blue_delfault">#BBDEFB</color>
+
+    <color name="loader_defalut">#44ffffff</color>
+    <color name="loader_selected">#ffffff</color>
+    <color name="hintcolordull">#ECEBEB</color>
+
+    <color name="expandable_default_line_color">#E0E0E0</color>
+
+
+    <color name="geometry">#ebe3cd</color>
+    <color name="labels_text_fill">#523735</color>
+    <color name="labels_text_stroke">#f5f1e6</color>
+    <color name="geometry_stroke">#c9b2a6</color>
+    <color name="land_parcel_geometry_stroke">#dcd2be</color>
+    <color name="land_parcel_labels_text_fill">#ae9e90</color>
+    <color name="landscape_natural">#dfd2ae</color>
+    <color name="landscape_natural_geometry">#dfd2ae</color>
+
+    <color name="disclaimer_1">#4B4B4B</color>
+
+</resources>
