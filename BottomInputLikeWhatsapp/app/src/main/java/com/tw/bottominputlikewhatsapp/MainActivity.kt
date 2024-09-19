@@ -47,14 +47,10 @@ class MainActivity : AppCompatActivity() {
             tvSave.setOnClickListener {
 
                 if (etInputText.text.toString().isEmpty()){
-
                     etInputText.error = "Enter updated name"
-
                 }else{
                     dialog.dismiss()
                     dialogShownOnce = true
-
-
                 }
             }
 
