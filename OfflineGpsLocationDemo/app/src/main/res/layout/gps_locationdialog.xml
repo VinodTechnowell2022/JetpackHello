@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="@dimen/_280sdp"
+    android:padding="@dimen/_2sdp"
+    tools:ignore="MergeRootFrame">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/outline_simple_thik_border"
+        android:padding="@dimen/_12sdp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="#000"
+                android:text="Offline GPS Location"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivCancel"
+                android:layout_width="@dimen/_26sdp"
+                android:layout_height="@dimen/_26sdp"
+                android:layout_gravity="end"
+                app:srcCompat="@drawable/_cancel"
+                app:tint="@color/dark_grey"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_weight=".60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:text="Longitude(X axis):"/>
+
+            <TextView
+                android:id="@+id/tvLatitude"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:gravity="center_vertical"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_weight=".40"
+                android:textStyle="normal"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tvLong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".60"
+                android:text="Latitude (Y axis):"
+                android:textColor="#000"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tvLongitude"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:gravity="center_vertical"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_weight=".40"
+                android:textStyle="normal"
+                android:singleLine="true"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:text="Accuracy(m):"
+                android:textColor="#000"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tvAccuracy"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:gravity="center_vertical"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_weight=".40"
+                android:textStyle="normal"
+                android:singleLine="true"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".60"
+                android:text="Date/Time:"
+                android:textColor="#000"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:paddingStart="2dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:gravity="center_vertical"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_weight=".40"
+                android:textStyle="normal"
+                android:singleLine="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/_10sdp"
+            android:gravity="center"
+            android:weightSum="10">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnGPS"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_border_gradient"
+                android:fontFamily="@font/googlesans_regular"
+                android:padding="12dp"
+                android:textSize="@dimen/_10sdp"
+                android:text="GET LOCATION"
+                android:textStyle="bold"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/googlesans_regular"
+            android:textColor="@color/dark_grey"
+            android:text="Note: Click on \'GET LOCATION'\ button to take minimum accuracy upto 35 mtrs"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -43,7 +43,6 @@ class MainActivity : AppCompatActivity() {
             val tvCancel: TextView = dialog.findViewById(R.id.tvCancel)
             val etInputText: EditText = dialog.findViewById(R.id.etInputText)
 
-
             tvSave.setOnClickListener {
 
                 if (etInputText.text.toString().isEmpty()){
